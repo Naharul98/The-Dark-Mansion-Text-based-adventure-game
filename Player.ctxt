@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\r\n\ This\ is\ the\ player\ class\r\n\ this\ class\ defines\ the\ aspects\ related\ to\ the\ player\ of\ the\ game\r\n\ this\ class\ implements\ the\ dynamic\ inventory\ system\ of\ the\ player,\ using\ a\ hashSet\r\n\ it\ also\ implements\ a\ data\ structure\ called\ stack,\ which\ keeps\ track\ of\ the\ rooms\ the\ player\ has\ been\ in,\r\n\ in\ order\ to\ implement\ the\ 'back'\ command\r\n\ this\ class\ also\ defines\ the\ maximum\ weight\ limit\ the\ player\ can\ carry\r\n\r\n\ @author\ \ A\ K\ M\ NAHARUL\ HAYAT\r\n\ @version\ 2017.11.25\r\n
+comment1.params=
+comment1.target=Player()
+comment1.text=\r\n\ Initializes\ the\ inventory\ HashSet,\ the\ stack\ and\ also\ sets\ weight\ of\ inventory\ to\ 0\r\n
+comment2.params=
+comment2.target=java.util.HashSet\ getItemsInInventory()
+comment2.text=\r\n\ @return\ The\ inventory\ hashset\r\n\ (the\ one\ that\ was\ defined\ in\ the\ constructor).\r\n
+comment3.params=
+comment3.target=int\ getWEIGHTLIMIT()
+comment3.text=\r\n\ @return\ the\ maximum\ weight\ limit\ of\ the\ inventory\r\n\ (the\ one\ that\ was\ defined\ in\ the\ constructor).\r\n
+comment4.params=
+comment4.target=int\ getWeightCurrentlyCarrying()
+comment4.text=\r\n\ @return\ the\ current\ weight\ of\ the\ player's\ inventory\r\n\ (the\ one\ that\ was\ defined\ in\ the\ constructor).\r\n
+comment5.params=weight
+comment5.target=void\ setWeightCurrentlyCarrying(int)
+comment5.text=\r\n\ this\ method\ sets\ the\ current\ inventory\ weight\ of\ the\ player\ by\ the\ amount\ specified\ in\ the\ constructor\r\n\ @param\ the\ new\ weight\ of\ the\ inventory\r\n
+comment6.params=
+comment6.target=java.util.Stack\ getStackOfRooms()
+comment6.text=\r\n\ @return\ the\ stack\ of\ the\ rooms\ the\ player\ has\ visited\r\n\ (the\ one\ that\ was\ defined\ in\ the\ constructor).\r\n
+numComments=7

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Items
+comment0.text=\r\n\ Class\ Items\ -\ items\ in\ the\ game\r\n\r\nThis\ class\ is\ part\ of\ the\ "The\ Dark\ Mansion"\ application.\ \r\n\r\n\ A\ "Item"\ represents\ one\ item\ located\ in\ a\ specific\ room.\r\n\ an\ item\ can\ be\ put\ in\ the\ player's\ inventory.\r\n\ It\ can\ also\ be\ dropped\ in\ any\ room\ by\ the\ player\ from\ its\ inventory\r\n\ Each\ item\ has\ a\ weight,\ some\ items\ can\ be\ carried\ by\ the\ players,\ others\ cant.\r\n\ Items\ can\ also\ be\ examined\ by\ the\ player,\ to\ view\ it's\ details\r\n\ Some\ pair\ of\ items\ can\ be\ used\ with\ each\ other\ by\ the\ player,\ throughout\ the\ game\r\n\ \r\n\ @author\ \ A\ K\ M\ NAHARUL\ HAYAT\r\n\ @version\ 2017.11.25\r\n
+comment1.params=name\ description\ weight\ pickable
+comment1.target=Items(java.lang.String,\ java.lang.String,\ int,\ boolean)
+comment1.text=\r\n\ Create\ an\ 'Items'\ objects\ described\ by\ name\ and\ description.\ \r\n\ Initially,\ it\ is\ not\ assigned\ to\ any\ room\r\n\ example\ of\ item\ -\ "key".\r\n\ @param\ name\ -\ name\ of\ the\ item\r\n\ @param\ description\ -\ description\ of\ the\ item\r\n\ @param\ weight\ -\ weight\ of\ the\ item\r\n\ @param\ pickable\ -\ if\ the\ item\ is\ carry-able\ by\ the\ player\ or\ not\r\n
+comment2.params=
+comment2.target=java.lang.String\ getItemName()
+comment2.text=\r\n\ @return\ The\ name\ of\ the\ item\r\n\ (the\ one\ that\ was\ defined\ in\ the\ constructor).\r\n
+comment3.params=
+comment3.target=java.lang.String\ getItemDescription()
+comment3.text=\r\n\ @return\ The\ description\ of\ the\ item\r\n\ (the\ one\ that\ was\ defined\ in\ the\ constructor).\r\n
+comment4.params=
+comment4.target=int\ getWeight()
+comment4.text=\r\n\ @return\ The\ weight\ of\ the\ item\r\n\ (the\ weight\ that\ was\ defined\ in\ the\ constructor).\r\n
+comment5.params=
+comment5.target=boolean\ getPickable()
+comment5.text=\r\n\ @return\ returns\ true\ if\ the\ item\ is\ pick-able\ by\ the\ player,\ otherwise,\ returns\ false\r\n\ (the\ one\ that\ was\ defined\ in\ the\ constructor).\r\n
+numComments=6
