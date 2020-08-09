@@ -1,7 +1,5 @@
 # The-Dark-Mansion-Text-based-adventure-game
 
-Developed by Naharul Hayat
-
 Game Description:
 
 The Dark Mansion, is a text based adventure game, that uses text inputs from the player as ‘commands’ in order to simulate a puzzle solving, interactive fiction. The player assumes the role of a protagonist who wakes up in a dark abandoned mansion, trapped and not knowing how he got there. He must now explore and find a way to escape the mansion.
